@@ -1,0 +1,62 @@
+                                                            body {
+                                                                min-height: 1000px;
+                                                                background-color: black;
+                                                            }
+                                                            
+                                                            .phoneimg {
+                                                                position: relative;
+                                                                width: 300px;
+                                                                height: 400px;
+                                                                left: 78px;
+                                                                top: 5px;
+                                                                margin: 5px 5px 5px 5px;
+                                                                display: block;
+                                                                z-index: 10;
+                                                            }
+                                                            
+                                                            .container {
+                                                                width: 455px;
+                                                                height: 455px;
+                                                                margin: 5px 5px 5px 5px;
+                                                                border: 10px solid white;
+                                                                padding 45px 25px;
+                                                                position: relative;
+                                                                background-color: #888;
+                                                                display: flex;
+                                                            }
+                                                            
+                                                            .screenimg {
+                                                                width: 250px;
+                                                                height: 303px;
+                                                                border: 2px solid black;
+                                                                top: 53px;
+                                                                left: -460px;
+                                                                position: absolute;
+                                                                margin: 5px 100px 5px 100px;
+                                                                display: inline-flex;
+                                                                z-index: 10;
+                                                            }
+                                                            
+                                                            @media screen and (min-width:601px) {
+                                                                .container {
+                                                                    width: 100%;
+                                                                }
+                                                            }
+                                                            
+                                                            @media screen and (max-width:600px) {
+                                                                .container {
+                                                                    width: 100%;
+                                                                }
+                                                            }
+                                                            
+                                                            .screen {
+                                                                width: 165px;
+                                                                height: 290px;
+                                                                border: 2px solid #353434;
+                                                                border-radius: 2px;
+                                                                top: -330px;
+                                                                left: 135px;
+                                                                position: relative;
+                                                                z-index: 40;
+                                                                background-color: #252525;
+                                                            }

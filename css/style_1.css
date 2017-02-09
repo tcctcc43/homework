@@ -1,0 +1,44 @@
+.content {
+    width: calc(100%*3/4);
+    float:left;
+    background-color: aqua;
+}
+
+header,
+aside,
+footer,
+.content{
+    border:1px solid black;
+    height:100px;
+}
+
+header{
+     width:100%;    
+}
+
+footer{
+     width:100%;
+     clear:both;
+}
+
+aside{
+     width:calc(100%*1/4);
+     float:left;
+}
+
+@media screen and (max-width:600px){
+    aside,
+    .content{
+        width:100%;
+    }
+}
+
+@media screen and (min-width:601px){
+    aside 
+    {
+        width: 30%;
+    }
+    .content{
+        width:70%;        
+    }
+}
